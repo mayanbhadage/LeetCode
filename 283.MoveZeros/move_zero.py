@@ -13,5 +13,5 @@ class Solution:
                 size -= 1
             else:
                 i+=1
-        for _ in range(count):
-            nums.append(0)
+                
+         nums += [0] * count # this is more efficient
