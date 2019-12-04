@@ -19,7 +19,7 @@ class Solution:
             res.append(hmap[key])
             result.append(res)
         
-        return result
+        return (result)
         
     def getAvg(self,total,num):
         
